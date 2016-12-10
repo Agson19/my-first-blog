@@ -16,4 +16,5 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-# Create your models here.
+from django.shortcuts import render
+from .models import Post
